@@ -1,36 +1,118 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Este é o meu portfólio pessoal, desenvolvido com **Next.js (App Router)** e **Tailwind CSS**, com foco em performance, SEO e boas práticas modernas de desenvolvimento frontend.
 
-## Getting Started
+O projeto foi pensado para ser simples, rápido e profissional, servindo como vitrine dos meus projetos, habilidades e experiência como desenvolvedor.
 
-First, run the development server:
+---
+
+## 🚀 Tecnologias Utilizadas
+
+* **Next.js 14+** — Framework React com App Router
+* **React** — Biblioteca para interfaces de usuário
+* **TypeScript** — JavaScript com tipagem estática
+* **Tailwind CSS** — Framework CSS utilitário
+* **next-themes** — Gerenciamento de tema (Dark / Light)
+* **Vercel** — Deploy e hospedagem
+
+---
+
+## ✨ Características
+
+* 🎨 Tema **Dark / Light** com suporte ao tema do sistema
+* 📱 Design totalmente responsivo
+* 🚀 Navegação rápida com App Router
+* 🧩 Rotas dinâmicas para projetos (`/projetos/[slug]`)
+* 🔍 SEO dinâmico por página (`generateMetadata`)
+* ⏳ Skeleton loading para melhor UX
+* 🧭 Header fixo e transparente com active link
+* ⚡ Otimizado para produção
+
+---
+
+## 📦 Instalação
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Abeners2/Portifolio
+```
+
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+Execute em modo de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra no navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧪 Scripts Disponíveis
 
-To learn more about Next.js, take a look at the following resources:
+* `npm run dev` — Inicia o servidor de desenvolvimento
+* `npm run build` — Gera a build de produção
+* `npm run start` — Executa a aplicação em modo produção
+* `npm run lint` — Analisa o código com ESLint
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Personalização
 
-## Deploy on Vercel
+### Conteúdo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Os dados dos projetos estão centralizados em:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/data/projects.ts
+```
+
+Cada projeto possui:
+
+* título
+* slug
+* descrição
+* tecnologias
+* link para repositório ou site
+
+---
+
+### Estilos
+
+* Paleta e estilos globais em `globals.css`
+* Componentes estilizados com Tailwind CSS
+* Suporte a tema claro e escuro via `next-themes`
+
+---
+
+## 🌐 Deploy
+
+O projeto está preparado para deploy na **Vercel**.
+
+### Passos básicos:
+
+```bash
+npm run build
+```
+
+Depois, basta importar o repositório na Vercel e realizar o deploy.
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença **MIT**.
+Sinta-se à vontade para usar como base, mas não se esqueça de adaptar para seu próprio conteúdo 😉
+
+---
+
+Built with ❤️ using **Next.js + TypeScript + Tailwind CSS**
