@@ -17,7 +17,7 @@ O projeto foi pensado para ser simples, rápido e profissional, servindo como vi
 
 ## ✨ Características
 
-* 🎨 Tema **Dark / Light** com suporte ao tema do sistema
+* 🎨 Tema **Dark / Light** com suporte ao tema do sistema (Precisa de correção no light theme)
 * 📱 Design totalmente responsivo
 * 🚀 Navegação rápida com App Router
 * 🧩 Rotas dinâmicas para projetos (`/projetos/[slug]`)
