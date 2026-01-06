@@ -14,7 +14,7 @@ export default function Home() {
     <main className="flex flex-col">
 
       {/* Hero Section */}
-      <section className="min-h-screen px-6 flex items-center">
+      <section className="min-h-screen flex flex-col justify-center items-start px-6 md:px-12 lg:px-24 py-20 bg-slate-900">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
             Olá, eu sou Abner 👋
